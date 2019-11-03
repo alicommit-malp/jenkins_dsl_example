@@ -30,11 +30,11 @@ Here you can create a Seed job, which is basically the job which going to fetch 
 
 then you need to specify the source control technology which you are using plus the link to your repository and if your repository is not public your credentials as well
 
-![Alt Text](https://thepracticaldev.s3.amazonaws.com/i/m6vckeawi0pwykj0q33l.png)
+![DSL job source control management](https://thepracticaldev.s3.amazonaws.com/i/m6vckeawi0pwykj0q33l.png)
 
 afterwards, and supposingly that you have installed the job-dsl-plugin 
 
-![Alt Text](https://thepracticaldev.s3.amazonaws.com/i/tf0s7u3fjoyydkwmzcdo.png)
+![DSL plugin selection in Jenkins](https://thepracticaldev.s3.amazonaws.com/i/tf0s7u3fjoyydkwmzcdo.png)
 
 you will provide the build step with relative path to the script which is going to generate your job(s)/pipeline(s)/etc
 
@@ -72,11 +72,11 @@ pipeline {
 }
 ```
 
-![Alt Text](https://thepracticaldev.s3.amazonaws.com/i/ejq74m17hgk7nqwezgq3.png)
+![Build step Jenkins DSL job](https://thepracticaldev.s3.amazonaws.com/i/ejq74m17hgk7nqwezgq3.png)
 
 save the job, and build it, and then if you visit the Jenkins dashboard you will see that there is job which has been added programatically to the list of the jobs 
 
-![Alt Text](https://thepracticaldev.s3.amazonaws.com/i/vshybl1r3dy9eq175adf.png)
+![Jenkins dashboard show all jobs](https://thepracticaldev.s3.amazonaws.com/i/vshybl1r3dy9eq175adf.png)
 
 There you have it, a simple tutorial to Jenkins DSL jobs.
 Happy coding :)
