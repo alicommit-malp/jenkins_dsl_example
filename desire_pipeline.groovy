@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('cloning repo ... ') {
             steps {
-                git 'https://github.com/beerkeeper/python-ip-script.git'
+                git 'https://github.com/alicommit-malp/jenkins_dsl_example'
             }
         }
         
@@ -16,8 +16,8 @@ pipeline {
                 }    
             }
             steps{
-                sh "pip install -r $WORKSPACE/requirements.txt"
-                sh "python $WORKSPACE/main.py"
+                sh "pip install -r $WORKSPACE/python/requirements.txt"
+                sh "python $WORKSPACE/python/main.py"
             }
         }
             
