@@ -15,6 +15,7 @@ jenkinsci/blueocea
 ![Jenkins new Seed job](https://thepracticaldev.s3.amazonaws.com/i/if2yxl8xlkth8mdcf17h.png)
 ![DSL job source control](https://thepracticaldev.s3.amazonaws.com/i/qn9heobq1utne2us2ks0.png)
 ![Jenkins build step for DSL script](https://thepracticaldev.s3.amazonaws.com/i/ejq74m17hgk7nqwezgq3.png)
+![Jenkins dashboard show all jobs](https://thepracticaldev.s3.amazonaws.com/i/vshybl1r3dy9eq175adf.png)
 ![pipeline created by DSL](https://thepracticaldev.s3.amazonaws.com/i/kz4g5hl8oquar05ymqxe.png)
 ```
 Console Output
