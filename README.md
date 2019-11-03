@@ -1,7 +1,7 @@
 # Jenkins DSL job simplified
 
 ## In Short
-The Jenkins DSL job is a job which will create another job(s)/pipeline and etc. but why create a job to create a job you may ask. well as in this way your desire job will be stored as a script in a version control repository therefore you have the ability to version it and have the history of its changes, which was the motivation of the creation of DSL jobs. 
+The Jenkins DSL job is a job which will create another job(s)/pipeline(s)/etc but why create a job to create a job you may ask well, in this way your desire job will be stored as a script in a version control repository therefore you have the ability to version it and have the history of its changes, which was the motivation behind the creation of the DSL jobs in order to achieve configuration as code in Jenkins.  
 
 all you need is located in github at [alicommit-malp/jenkins_dsl_example](https://github.com/alicommit-malp/jenkins_dsl_example)
 
